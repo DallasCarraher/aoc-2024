@@ -8,7 +8,7 @@
 
 function main() {
   // Read the file
-  const file = Deno.readTextFileSync("input.txt");
+  const file = Deno.readTextFileSync("1/input.txt");
   const lines = file.split("\n");
 
   // Parse the file
